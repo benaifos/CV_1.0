@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Courier New" ,monospace;
+    color: rgb(17, 17, 17);
+    font-size: 18px;
+    background-image: url("https://www.graphiste-mdesign.fr/wp-content/uploads/2016/09/website-design-background.png"); 
+    background-size: cover, auto;
+    background-repeat: no-repeat;
+}
+.all{
+    width:1600px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1 {
+    text-align: center;
+    color: rgb(225, 254, 255);
+}
+
+ .hobby, .langues {
+    width: 20%;
+    min-height: 125px;
+}
+.ide {
+    width: 30%;
+    min-height: 125px;
+    
+}
+.contact{
+    width: 30%;
+    min-height: 135px;
+    margin: 5px;
+    display: inline-block;
+}
+.card-photo {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 150px;
+    float: right;
+}
+
+.card-photo-content {
+	border-radius: 50%;
+	width: 150px;
+
+}
+.profil{
+    width: 30%;
+    margin: 5px auto; 
+}
+
+.exp  {
+    width: 80%;
+    margin: 5px auto;
+}
+
+.competence {
+    width: 80%;
+    margin: 5px auto;
+}
+.bulle {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid;
+    border-color: rgba(202, 198, 197, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+
+}
+#conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress {
+    background: #333;
+    border-radius: 13px;
+    height: 10px;
+    width: 150px;
+    padding: 1px;
+    display: inline-block;  
+}
+
+.progress:after {
+    content: '';
+    text-align: center;
+    display: block;
+    background: rgb(81, 250, 179);
+    height: 100%;
+    border-radius: 9px;
+}
+
+.photoshop:after {width: 70%;}
+.html:after {width: 50%;}
+.php:after {width: 30%;}
+.word:after {    width: 60%;}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    block-size: 50px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    padding-top: 15px;
+}
+
